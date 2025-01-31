@@ -17,7 +17,8 @@ Este es un proyecto sencillo en el que puedes agregar nombres y asignar un "amig
 ## Instalación
 1. **Clona este repositorio en tu máquina local**:
    ```bash
-   git clone https://github.com/tu-usuario/amigos-secretos.git](https://github.com/Angel66694/juego-amigo-secreto
+   git clone https://angel66694.github.io/juego-amigo-secreto/
+)
 Navega hasta el directorio del proyecto:
 cd amigos-secretos
 Abre el archivo index.html en tu navegador.
