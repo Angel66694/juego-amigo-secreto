@@ -2,28 +2,28 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Corrección aquí -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Juego de amigos secretos</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="caja">
             <h1>Juego de amigo secreto</h1>
-            <div id="input-section">  <!-- Corregido el nombre del div -->
+            <div id="input-section">
                 <input type="text" id="name-input" placeholder="Ingresa un nombre">
                 <button id="agregar" onclick="addName()">Agregar Nombre</button>
             </div>
             <div id="name-list">
-                <h2>Nombres Ingresados</h2>
+                <h2>Nombres ingresados</h2>
                 <ul id="names"></ul>
             </div>
-            <button onclick="assignSecretFriend()" id="assign-button">Asignar Amigo Secreto</button>
+            <button onclick="assignSecretFriend()" id="assign-button">Asignar amigo secreto</button>
             <div id="result-section">
                 <h2>Resultados</h2>
                 <ul id="result"></ul>
             </div>
             <div>
-                <button id="reset" onclick="resetGame()">Reseteo</button>
+                <button id="reset" onclick="resetGame()">Reiniciar</button>
             </div>
         </div>
         <script src="script.js"></script>
